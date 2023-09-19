@@ -1,0 +1,22 @@
+.card{
+    box-sizing: border-box;
+    padding: 30px 30px;
+    
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #828282;
+    margin: 10px 50px;
+    background: #fff;
+    .cardBody{
+        .Link{
+            
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            transition: .2s ease-out;
+            &:hover{
+                color: #56a8c5;
+                padding-left: 10px;
+            }
+        }
+    }
+}

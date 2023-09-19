@@ -1,0 +1,54 @@
+.loading{
+
+}
+.aboutWrap{
+    height: 100vh;
+    background: #fff;
+    box-sizing: border-box;
+    .user{
+        padding: 20px;
+        margin: 0 auto;
+        display: flex;
+        width: 70%;
+
+        box-shadow: 0 3px 10px #4a4a4a;
+        border-radius: 10px;
+        overflow: hidden;
+        box-sizing: border-box;
+        .img{width: 30%;}
+        .box{
+            box-sizing: border-box;
+            width: 70%;
+            padding: 0 50px;
+            
+            .movieStyle{
+                 padding: 15px 0;
+                 font-size: 20px;
+                 color: #222;
+                 
+            }
+            .movieTitle{
+                border-bottom: 2px solid #ffffff5e;
+                height: 10%;
+            }
+            .movieOverview{
+                box-sizing: border-box;
+                font-size: 14px;
+                padding: 20px;
+                line-height: 2;
+                height: 60%;
+                overflow: hidden;
+            }
+            .movieReleaseDate{
+                height: 10%;
+            }
+            .movieVoteAverage{
+                height: 10%;
+            }
+        }
+    }
+}
+
+.h2{
+    
+}
